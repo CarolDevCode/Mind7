@@ -32,3 +32,12 @@ print (((b < a)and (c > b) or c == 7))
 velocidade = 60
 tempo = 3
 print (velocidade*tempo)
+nota1 = int (input('digite nota 1: '))
+nota2 = int (input('digite nota 2: '))
+nota3 = int (input('digite nota 3: '))
+media = (nota1+nota2+nota3)/3
+print ("A média foi de", media)
+nome = 'Caroline'
+sobrenome = 'Baron'
+idade = 21
+print ("Me chamo {} {} e tenho {} anos".format (nome, sobrenome, idade))
