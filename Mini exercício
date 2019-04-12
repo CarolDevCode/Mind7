@@ -1,0 +1,4 @@
+total_km = 10
+tempo_total_segundos = (53*60)
+media_por_km = (1* tempo_total_segundos/total_km)
+print (media_por_km)
