@@ -1,0 +1,24 @@
+print ('Lista 3: Exercício 1')
+nome = (input('digite seu nome: '))
+idade = int(input('digite sua idade: '))
+AnoNascimento = 2019 - idade
+print ('Aniversário de 100 anos em: ')
+print (AnoNascimento + 100)
+
+print ('Lista 3: Exercício 2')
+nome = (input('digite seu nome: '))
+idade = int(input('digite sua idade: '))
+AnoNascimento = 2019 - idade
+AnoNiver = AnoNascimento + 100
+print ('Você ira fazer 100 anos em: ', AnoNiver)
+qnt = int(input('quantas vezes deseja ver esta mensagem? '))
+while (qnt!= 0):
+   print ('Você ira fazer 100 ano em:', AnoNiver)
+   qnt = qnt-1
+
+print ('Lista 3: Exercício 3')
+número = int(input('digite um número: '))
+if (número%2==0):
+  print ('Este número é par')
+else:
+ print ("Este número é ímpar")
